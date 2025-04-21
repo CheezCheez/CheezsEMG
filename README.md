@@ -31,9 +31,11 @@ Cheez.sEMG是启思电子推出的一款肌电传感器模块。其能够通过�
 ## 引脚说明
 * 湿电极版本
 <br/>
+
 ![image](./img/cheezsEMG_1.png)
 * 干电极版本
 <br/>
+
 ![image](./img/HellozsEMG_1.png)
 ## 使用教程
 
@@ -41,20 +43,23 @@ Cheez.sEMG是启思电子推出的一款肌电传感器模块。其能够通过�
 
 * 湿电极版本
 <br/>
+
 ![image](./img/cheezsEMG_2.png)
 * 干电极版本
 <br/>
+
 ![image](./img/HellozsEMG_2.png)
 <br/>
 
 ### 接线图 
 * 湿电极版本
 <br/>
+
 ![image](./img/cheezsEMG_3.png)
 * 干电极版本
 <br/>
-![image](./img/HellozsEMG_3.png)
- 
+
+![image](./img/HellozsEMG_3.png) 
 <br/>
 
 ### 教程
