@@ -1,6 +1,7 @@
 /**
 ******************************************************************************
-* @file   : EMGEnvelop.ino
+* @file   : emg.ino
+* @brief  ：需安装Arduino库 CheezsEMG
 * @brief  : 输出：串口,波特率 115200
             采样率：500Hz 
             引脚连接：
@@ -26,12 +27,12 @@
 */
 #include "CheezsEMG.h"
 
-#define SAMPLE_RATE 500        // 采样率
-#define BAUD_RATE 115200       // 串口波特率
 #define INPUT_PIN A0           // 信号输入(白色)
 #define DETECT_PIN 2           // 检测输入(黄色)
+
+#define SAMPLE_RATE 500        // 采样率(适配库的500Hz滤波)
+#define BAUD_RATE 115200       // 串口波特率
  
-// 使用默认配置  
 CheezsEMG sEMG(INPUT_PIN, DETECT_PIN, SAMPLE_RATE);  
 
 void setup() 
