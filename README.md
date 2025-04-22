@@ -70,6 +70,8 @@ Cheez.sEMG是启思电子推出的一款肌电传感器模块。其能够通过�
   * Arduino IDE 2.3
   * 安装Arduino库：管理中安装CheezsEMG库 
   
+  ![image](./img/lib.png) 
+  
 - **硬件**
   - Arduino UNO开发板 x1
   - EX.UNO控制板x1（可选）
