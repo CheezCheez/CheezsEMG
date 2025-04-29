@@ -1,8 +1,7 @@
 #include "CheezsEMG.h"
-
-// 构造函数
+ 
 CheezsEMG::CheezsEMG( uint8_t emgPin, uint8_t detectPin, 
-                      unsigned long sampleRate): 
+                      uint32_t sampleRate): 
     _emgInputPin(emgPin),
     _detectPin(detectPin),
     _sampleRate(sampleRate),

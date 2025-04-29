@@ -11,7 +11,7 @@ public:
     CheezsEMG(
         uint8_t inputPin = A0, 
         uint8_t detectPin = 2, 
-        unsigned long sampleRate = 500 
+        uint32_t sampleRate = 500 
     );
 
     ~CheezsEMG(){};  
@@ -38,7 +38,7 @@ private:
     // 私有配置参数
     uint8_t _emgInputPin;
     uint8_t _detectPin;
-    unsigned long _sampleRate;  
+    uint32_t _sampleRate;  
     static const int BUFFER_SIZE = 128; 
  
     // 包络检测缓存
